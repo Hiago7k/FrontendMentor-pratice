@@ -1,0 +1,97 @@
+header{
+   padding: 40px;
+}
+
+
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.conteudo h1{
+    font-size: 3rem;
+}
+
+.conteudo, h1, p{
+    font-size: 1.8rem;
+    padding: 20px;
+    width: 600px;
+}
+
+main{
+    display: flex;
+    padding-left: 70px;
+}
+
+.conteudo button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: black;
+    border: hsl(300, 69%, 71%);;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 200px;
+    border: 2px solid #black;
+    transition: ease-in-out o.3s;
+}
+
+
+.conteudo button:hover {
+    background-color: hsl(300, 69%, 71%); 
+  border-color: hsl(300, 69%, 71%); 
+  color: white; 
+  }
+
+
+ 
+footer {
+    padding: 150px; 
+    position: relative; 
+  }
+  
+  .social-nav {
+    position: absolute;
+    right: 100px
+  }
+  
+  .social-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px; 
+  }
+  
+  .social-list li {
+    display: inline; 
+  }
+  
+  .social-list a {
+    color: #ffff
+    font-size: rem; 
+    border: 2px solid white; 
+    border-radius: 50%; 
+    padding: 10px; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out; 
+  }
+  
+  .social-list a:hover {
+    color: hsl(300, 69%, 71%); 
+    border-color: hsl(300, 69%, 71%); 
+  }
+  
+
+
+ 
+  

@@ -1,0 +1,107 @@
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .conteudo {
+        padding: 10px;
+        max-width: 100%;
+        margin: 0 auto; 
+
+    .conteudo h1 {
+        font-size: 2.5rem;
+    }
+
+    .conteudo p {
+        font-size: 1.5rem;
+    }
+
+    .conteudo button {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+
+    footer {
+        padding: 30;
+        text-align: center;
+    }
+
+    .social-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .social-list {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 15px;
+        list-style: none;
+    }
+
+    .social-list li {
+        display: inline;
+    }
+
+    .social-list a {
+        color: #fff;
+        font-size: 1.5rem;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    }
+
+    .social-list a:hover {
+        color: hsl(300, 69%, 71%);
+        border-color: hsl(300, 69%, 71%);
+    }
+
+    
+    .imagem img {
+        width: 80%;
+        max-width: 500px; 
+        height: auto;
+        margin: 0 auto; 
+        display: block;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .conteudo h1 {
+        font-size: 2rem;
+    }
+
+    .conteudo p {
+        font-size: 1.2rem;
+    }
+
+    .conteudo button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .social-list a {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+
+    
+    .imagem img {
+        width: 90%;
+        max-width: 400px; 
+        height: auto;
+        margin: 0 auto; 
+        display: block; 
+    }
+}
